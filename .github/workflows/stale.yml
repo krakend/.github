@@ -1,7 +1,6 @@
 name: 'Close stale issues and PRs'
 on:
-  schedule:
-    - cron: '30 18 * * *'
+  workflow_call:
 
 jobs:
   stale:
