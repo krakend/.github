@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Label Commenter
-        #uses: peaceiris/actions-label-commenter@v1
-        uses: peaceiris/actions-label-commenter@v2
-        with:
-          config_file: https://github.com/krakendio/.github/blob/main/.github/label-commenter-config.yml
+        uses: peaceiris/actions-label-commenter@v1
+        #uses: peaceiris/actions-label-commenter@v2
+        #with:
+        #  config_file: https://github.com/krakendio/.github/blob/main/.github/label-commenter-config.yml
