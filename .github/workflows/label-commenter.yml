@@ -22,6 +22,6 @@ jobs:
 
       - name: Label Commenter
         #uses: peaceiris/actions-label-commenter@v1
-        uses: peaceiris/actions-label-commenter@c2d00660c86f2b9ed0fb35b372c451558eba85b3
+        uses: peaceiris/actions-label-commenter@v2
         with:
-          config_file: krakendio/.github/.github/label-commenter-config.yml@main
+          config_file: https://github.com/krakendio/.github/blob/main/.github/label-commenter-config.yml
