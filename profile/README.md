@@ -1,6 +1,12 @@
 ![Image header](https://raw.githubusercontent.com/krakendio/.github/main/profile/header.png)
 
-KrakenD is an extensible, ultra-high performance API Gateway that helps you effortlessly adopt microservices and secure communications. KrakenD is easy to operate and run and scales out without a single point of failure.
+**[KrakenD](https://www.krakend.io)** is an open-source API Gateway that helps you effortlessly adopt microservices and secure communications. KrakenD aims for **performance, scalability and simplicity**, easing operations and scaling, without a single point of failure. It's been widely adopted: ~2M servers are running KrakenD monthly around the world.
+
+KrakenD donated it's core framework, now named Lura Project, to the Linux foundation on May, 2021.
+
+Learn more in our documentation:
+- [Community Edition](https://www.krakend.io/docs/overview/)
+- [Enterprise Edition](https://www.krakend.io/docs/enterprise/overview/)
 
 <p align="center">
     <a href="https://twitter.com/krakend_io" target="blank">
@@ -21,5 +27,3 @@ KrakenD is an extensible, ultra-high performance API Gateway that helps you effo
 - [KrakenD Enterprise 2.1.2 (security fix) released](https://www.krakend.io/blog/krakend-ee-2.1.2-release-notes/)
 - [KrakenD 2.1.4 (security fix) released](https://www.krakend.io/blog/krakend-2.1.4-release-notes/)
 - [KrakenD 2022 Recap: A Look Back at Our Major Milestones](https://www.krakend.io/blog/2022-recap/)
-- [KrakenD 2.1.1 EE (patch version) released](https://www.krakend.io/blog/krakend-ee-2.1.1-release-notes/)
-- [KrakenD 2.1.3 (patch version) released](https://www.krakend.io/blog/krakend-2.1.3-release-notes/)
