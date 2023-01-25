@@ -1,4 +1,4 @@
-![Image header](header.png)
+![Image header](https://raw.githubusercontent.com/krakendio/.github/main/profile/header.png)
 
 KrakenD is an extensible, ultra-high performance API Gateway that helps you effortlessly adopt microservices and secure communications. KrakenD is easy to operate and run and scales out without a single point of failure.
 
