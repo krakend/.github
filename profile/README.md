@@ -2,11 +2,11 @@
 
 **[KrakenD](https://www.krakend.io)** is an open-source API Gateway that helps you effortlessly adopt microservices and secure communications. KrakenD aims for **performance, scalability and simplicity**, easing operations and scaling, without a single point of failure. It's been widely adopted: ~2M servers are running KrakenD monthly around the world.
 
-KrakenD donated it's core framework, now named Lura Project, to the Linux foundation on May, 2021.
+KrakenD donated its engine (framework) to the Linux Foundation, under the name [Lura Project](https://luraproject.org/). The Krakend team is part of its development and steering committee.
 
 Learn more in our documentation:
-- [Community Edition](https://www.krakend.io/docs/overview/)
-- [Enterprise Edition](https://www.krakend.io/docs/enterprise/overview/)
+- [Community Edition](https://www.krakend.io/docs/overview/)  (open-source, unlimited use, corporate-grade features)
+- [Enterprise Edition](https://www.krakend.io/docs/enterprise/overview/) (Extended functionalities, support, training, professional services)
 
 <p align="center">
     <a href="https://twitter.com/krakend_io" target="blank">
