@@ -1,0 +1,31 @@
+name: Update Organization Profile
+
+on:
+  workflow_dispatch:
+
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+      - run: npm install
+        working-directory: ./profile
+      - run: |
+          if [[ "${{ github.repository }}" != "krakend/.github" ]]; then
+            echo "This workflow can only be executed on '.github' repository."
+            exit 1
+          fi
+      - run: npm run update-readme
+        working-directory: ./profile
+      - run: |
+          git config user.name obokaman-com
+          git config user.email albert.garcia@krakend.io
+          git add ./profile/README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
+          git push origin main
