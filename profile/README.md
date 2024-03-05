@@ -24,6 +24,8 @@ Learn more in our documentation:
 </p>
 
 #### 📝  Latest articles on [our blog](https://www.krakend.io/blog/ "KrakenD blog"):
-- [KrakenD Enterprise 2.1.2 (security fix) released](https://www.krakend.io/blog/krakend-ee-2.1.2-release-notes/)
-- [KrakenD 2.1.4 (security fix) released](https://www.krakend.io/blog/krakend-2.1.4-release-notes/)
-- [KrakenD 2022 Recap: A Look Back at Our Major Milestones](https://www.krakend.io/blog/2022-recap/)
+- [KrakenD 2023: Milestones and New Horizons](https://www.krakend.io/blog/2023-recap/)
+- [KrakenD Enterprise v2.5 released with API Monetization](https://www.krakend.io/blog/krakend-ee-2.5-release-notes/)
+- [How KrakenD API Gateway uses JSON Schema](https://www.krakend.io/blog/json-schema-use-case/)
+- [API Response Manipulation: Enhanced Control and Flexibility](https://www.krakend.io/blog/response-manipulation/)
+- [Keep-Alive Connections And Its Critical Role While Optimizing API Performance](https://www.krakend.io/blog/keep-alive-optimizing-performance/)
