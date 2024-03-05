@@ -1,0 +1,16 @@
+{
+  "name": "krakend",
+  "version": "1.0.0",
+  "description": "KrakenD README GitHub profile",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "update-readme": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Garcia Gibert <albert.garcia@krakend.io>",
+  "dependencies": {
+    "node-fetch": "2.6.1",
+    "rss-parser": "3.8.0"
+  }
+}
