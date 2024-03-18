@@ -24,8 +24,8 @@ Learn more in our documentation:
 </p>
 
 #### 📝  Latest articles on [our blog](https://www.krakend.io/blog/ "KrakenD blog"):
+- [KrakenD CE v2.6 released with OpenTelemetry](https://www.krakend.io/blog/krakend-2.6-release-notes/)
+- [From OpenCensus to OpenTelemetry](https://www.krakend.io/blog/from-opencensus-to-opentelemetry/)
 - [KrakenD 2023: Milestones and New Horizons](https://www.krakend.io/blog/2023-recap/)
 - [KrakenD Enterprise v2.5 released with API Monetization](https://www.krakend.io/blog/krakend-ee-2.5-release-notes/)
 - [How KrakenD API Gateway uses JSON Schema](https://www.krakend.io/blog/json-schema-use-case/)
-- [API Response Manipulation: Enhanced Control and Flexibility](https://www.krakend.io/blog/response-manipulation/)
-- [Keep-Alive Connections And Its Critical Role While Optimizing API Performance](https://www.krakend.io/blog/keep-alive-optimizing-performance/)
