@@ -24,8 +24,8 @@ Learn more in our documentation:
 </p>
 
 #### 📝  Latest articles on [our blog](https://www.krakend.io/blog/ "KrakenD blog"):
+- [Automating License Validity Checks with KrakenD](https://www.krakend.io/blog/automating-license-check/)
 - [KrakenD Enterprise v2.6 released with OpenTelemetry, FIPS-140, gRPC server and more](https://www.krakend.io/blog/krakend-ee-2.6-release-notes/)
 - [KrakenD CE v2.6 released with OpenTelemetry](https://www.krakend.io/blog/krakend-2.6-release-notes/)
 - [From OpenCensus to OpenTelemetry](https://www.krakend.io/blog/from-opencensus-to-opentelemetry/)
 - [KrakenD 2023: Milestones and New Horizons](https://www.krakend.io/blog/2023-recap/)
-- [KrakenD Enterprise v2.5 released with API Monetization](https://www.krakend.io/blog/krakend-ee-2.5-release-notes/)
