@@ -24,4 +24,4 @@ jobs:
         uses: peaceiris/actions-label-commenter@v1
         #uses: peaceiris/actions-label-commenter@v2
         #with:
-        #  config_file: https://github.com/krakendio/.github/blob/main/.github/label-commenter-config.yml
+        #  config_file: https://github.com/krakend/.github/blob/main/.github/label-commenter-config.yml

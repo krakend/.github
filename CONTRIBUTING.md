@@ -38,7 +38,7 @@ changes, improvements or alternatives may be given).
 Once the repository is forked, you should track the upstream (original) one
 using the following command (where `${REPONAME}` is the repository name):
 
-    git remote add upstream https://github.com/krakendio/${REPONAME}.git
+    git remote add upstream https://github.com/krakend/${REPONAME}.git
 
 Then you should create your own branch:
 

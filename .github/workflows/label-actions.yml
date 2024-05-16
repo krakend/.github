@@ -1,12 +1,15 @@
 name: 'Label Actions'
-
 on:
-  issues:
-    types: [labeled, unlabeled]
-  pull_request_target:
-    types: [labeled, unlabeled]
-  discussion:
-    types: [labeled, unlabeled]
+  workflow_call:
+
+# On workflow call use:
+# on:
+#   issues:
+#     types: [labeled, unlabeled]
+#   pull_request_target:
+#     types: [labeled, unlabeled]
+#   discussion:
+#     types: [labeled, unlabeled]
 
 permissions:
   contents: read
