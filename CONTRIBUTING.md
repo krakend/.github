@@ -27,6 +27,7 @@ could be:
 3. Code it in your fork
 4. Submit a [pull request](https://help.github.com/articles/creating-a-pull-request) referencing the issue
 
+**All commits must be [signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits)**.
 
 Your work will then be reviewed as soon as possible (suggestions about some
 changes, improvements or alternatives may be given).
@@ -44,7 +45,7 @@ Then you should create your own branch:
 
     git checkout -b <prefix>/<micro-title>-<issue-number>
 
-Once your changes are done (`git commit -am '<descriptive-message>'`), get the
+Once your changes are done (`git commit -S -am '<descriptive-message>'`), get the
 upstream changes:
 
     git checkout master
