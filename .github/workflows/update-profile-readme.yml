@@ -8,9 +8,10 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
-  build:
+  update-profile:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,9 +28,23 @@ jobs:
           fi
       - run: npm run update-readme
         working-directory: ./profile
-      - run: |
-          git config user.name obokaman-com
-          git config user.email albert.garcia@krakend.io
-          git add ./profile/README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "[bot] Update README with latest info"
-          git push origin main
+
+      - id: pr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: "[bot] Update README with latest info"
+          branch: update-readme-${{ github.run_id }}
+          title: "[bot] Update README with latest info"
+          body: |
+            This automated PR updates the README with the latest organization profile.
+          labels: automated-update
+          reviewers: obokaman-com,alombarte
+
+      - if: steps.pr.outputs.pull-request-url != ''
+        uses: slackapi/slack-github-action@v1.23.0
+        with:
+          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          payload: |
+            {
+              "text": "A pull request has been created to update the KrakenD org README: ${{ steps.pr.outputs.pull-request-url }}"
+            }
