@@ -32,6 +32,7 @@ jobs:
       - id: pr
         uses: peter-evans/create-pull-request@v4
         with:
+          sign-commits: true
           commit-message: "[bot] Update README with latest info"
           branch: update-readme-${{ github.run_id }}
           title: "[bot] Update README with latest info"
