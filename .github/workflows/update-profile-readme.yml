@@ -40,10 +40,14 @@ jobs:
           reviewers: obokaman-com,alombarte
 
       - if: steps.pr.outputs.pull-request-url != ''
-        uses: slackapi/slack-github-action@v1.23.0
+        uses: slackapi/slack-github-action@v2.0.0
         with:
-          slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          webhook: ${{ secrets.SLACK_WEBHOOK_URL }}
+          webhook-type: incoming-webhook
           payload: |
-            {
-              "text": "A pull request has been created to update the KrakenD org README: ${{ steps.pr.outputs.pull-request-url }}"
-            }
+            text: "The organization README has been automatically updated with the latest blog articles: ${{ steps.pr.outputs.pull-request-url }}"
+            blocks:
+              - type: "section"
+                text:
+                  type: "mrkdwn"
+                  text: "The org README was auto-updated with the latest blog articles. See PR: ${{ steps.pr.outputs.pull-request-url }}"
