@@ -24,8 +24,8 @@ Learn more in our documentation:
 </p>
 
 #### 📝  Latest articles on [our blog](https://www.krakend.io/blog/ "KrakenD blog"):
-- [Automating License Validity Checks with KrakenD](https://www.krakend.io/blog/automating-license-check/)
-- [KrakenD Enterprise v2.6 released with OpenTelemetry, FIPS-140, gRPC server and more](https://www.krakend.io/blog/krakend-ee-2.6-release-notes/)
-- [KrakenD CE v2.6 released with OpenTelemetry](https://www.krakend.io/blog/krakend-2.6-release-notes/)
-- [From OpenCensus to OpenTelemetry](https://www.krakend.io/blog/from-opencensus-to-opentelemetry/)
-- [KrakenD 2023: Milestones and New Horizons](https://www.krakend.io/blog/2023-recap/)
+- [KrakenD is now an official Docker image!](https://www.krakend.io/blog/official-docker-image/)
+- [KrakenD v2.9.4 CE and EE security releases](https://www.krakend.io/blog/krakend-2.9.4-ce-ee-release-notes/)
+- [KrakenD v2.9.2 and v2.9.3 security releases](https://www.krakend.io/blog/krakend-2.9.2-2.9.3-ce-ee-release-notes/)
+- [Changing component execution order with KrakenD Workflows](https://www.krakend.io/blog/customizing-execution-order-with-workflows/)
+- [KrakenD EE v2.9 released: Redis Cluster Support, LRU, WebSockets Upgrades & More!](https://www.krakend.io/blog/krakend-ee-2.9-release-notes/)
