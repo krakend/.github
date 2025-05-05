@@ -30,7 +30,7 @@ jobs:
         working-directory: ./profile
 
       - id: pr
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v7
         with:
           sign-commits: true
           commit-message: "[bot] Update README with latest info"
