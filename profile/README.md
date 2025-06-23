@@ -24,8 +24,8 @@ Learn more in our documentation:
 </p>
 
 #### 📝  Latest articles on [our blog](https://www.krakend.io/blog/ "KrakenD blog"):
+- [KrakenD CE and EE 2.10.1 (bugfixing) released](https://www.krakend.io/blog/krakend-2.10.1-ee-ce-release-notes/)
 - [KrakenD EE v2.10: AI Gateway & Quota management](https://www.krakend.io/blog/krakend-ee-2.10-release-notes/)
 - [KrakenD CE v2.10 released with new Docker official image, LRU cache, and more](https://www.krakend.io/blog/krakend-2.10-release-notes/)
 - [KrakenD is now an official Docker image!](https://www.krakend.io/blog/official-docker-image/)
 - [KrakenD v2.9.4 CE and EE security releases](https://www.krakend.io/blog/krakend-2.9.4-ce-ee-release-notes/)
-- [KrakenD v2.9.2 and v2.9.3 security releases](https://www.krakend.io/blog/krakend-2.9.2-2.9.3-ce-ee-release-notes/)
